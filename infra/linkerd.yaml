@@ -1,0 +1,7 @@
+apiVersion: policy.linkerd.io/v1beta1
+kind: Server
+metadata:
+  name: parcel
+spec:
+  port: 8443
+  proxyProtocol: TLS

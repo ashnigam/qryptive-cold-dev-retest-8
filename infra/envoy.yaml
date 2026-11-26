@@ -1,0 +1,12 @@
+static_resources:
+  listeners:
+    - name: parcel
+      filter_chains:
+        - transport_socket:
+            name: envoy.transport_sockets.tls
+            typed_config:
+              "@type": type.googleapis.com/envoy.extensions.transport_sockets.tls.v3.DownstreamTlsContext
+              common_tls_context:
+                tls_params:
+                  tls_minimum_protocol_version: TLSv1_0
+                  cipher_suites: [ECDHE-RSA-RC4-SHA]

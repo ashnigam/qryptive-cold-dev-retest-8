@@ -1,0 +1,6 @@
+[package]
+name="parcel-native"
+version="0.1.0"
+[dependencies]
+openssl="0.10"
+rsa="0.9"

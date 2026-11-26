@@ -1,0 +1,5 @@
+tls:
+  defaults:
+    tls_min_version: TLSv1_0
+    verify_incoming: false
+    verify_outgoing: false

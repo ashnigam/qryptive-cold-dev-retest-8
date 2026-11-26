@@ -1,0 +1,11 @@
+openssl_conf = default_conf
+[default_conf]
+ssl_conf = ssl_sect
+[ssl_sect]
+system_default = weak
+[weak]
+MinProtocol = TLSv1
+CipherString = DEFAULT:@SECLEVEL=0
+[req]
+default_bits = 1024
+default_md = sha1

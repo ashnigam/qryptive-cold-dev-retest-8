@@ -1,0 +1,4 @@
+server:
+  ssl:
+    enabled-protocols: TLSv1,TLSv1.1
+    key-store: classpath:parcel.p12

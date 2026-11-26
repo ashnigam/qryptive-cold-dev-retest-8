@@ -1,0 +1,3 @@
+security:
+  signatureAlgorithm: http://www.w3.org/2000/09/xmldsig#rsa-sha1
+  encryption_algorithm: http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p

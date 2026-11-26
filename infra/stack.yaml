@@ -1,0 +1,8 @@
+Resources:
+  ReceiptKey:
+    Type: AWS::KMS::Key
+    Properties:
+      KeySpec: RSA_2048
+      KeyUsage: SIGN_VERIFY
+  Bucket:
+    Type: AWS::S3::Bucket

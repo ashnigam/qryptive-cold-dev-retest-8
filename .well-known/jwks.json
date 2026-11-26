@@ -1,0 +1,12 @@
+{
+  "keys": [
+    {
+      "kty": "RSA",
+      "kid": "parcel-disposable",
+      "use": "sig",
+      "alg": "RS256",
+      "n": "2mV0kEfICP6zwF-cYbhlRgXOHomR6XESLU8eR08rZHQfknfqsAddtXfBPQRijWg7qmARNhjDv02WG0hEIHqsAC1iZG33pL2AJZ5-QBH3jPDNwCSEjrHUvAowdeKvEdfuxaT5vL_qxqB8k36R6UXEoIbET3G6yqxjLa4tnjwaElhCGXqw5ySQf2PSGhVWvxnyKAARWdXQCulWCyiO7VVqZMqnxjJBI3PMnlpD7HV_-jpaUOb5gd9vJy4NYr3IKVE_FIIq7zw4d1I9GH0be_zbt9pP8SYSfMWzhnV93s4GmCaPrPrKBwwSlPiT4Ly_sfes-0kh8vgpfHQuGa2WHPl1dw",
+      "e": "AQAB"
+    }
+  ]
+}

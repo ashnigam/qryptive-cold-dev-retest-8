@@ -1,0 +1,7 @@
+- hosts: all
+  tasks:
+    - name: Provision legacy receipt key
+      community.crypto.openssl_privatekey:
+        path: /etc/parcel.key
+        size: 1024
+        type: RSA
