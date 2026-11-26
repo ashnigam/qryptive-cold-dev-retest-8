@@ -14,7 +14,7 @@ export function stamps(payload: Buffer) {
   crypto.createECDH('prime256v1');
   crypto.generateKeyPairSync('x25519');
   crypto.createDiffieHellman(2048);
-  crypto.createHash('md5').update(payload).digest();
+  crypto.createHash('sha1').update(payload).digest();
   crypto.createHash('sha1').update(payload).digest();
   crypto.createHmac('sha1', 'test').update(payload).digest();
   crypto.createCipheriv('aes-128-gcm', Buffer.alloc(16), Buffer.alloc(12)); crypto.createCipheriv('aes-256-gcm', Buffer.alloc(32), Buffer.alloc(12));
